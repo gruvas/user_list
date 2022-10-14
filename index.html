@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/libs/normalize.css">
+    <link rel="stylesheet" href="./style/index.css">
+    
+    <title>List users</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="indent_top_start">
+            <section>
+                <div class="search">
+                    <input type="text" class="input_search_name" maxlength="99" keypress="SalaryValidation">
+        
+                    <img class="img_search" src="./img/search.svg" alt="">
+                </div>
+
+                <main class="users grid">
+                    
+                </main>
+
+                <div class="popup_wrapper hide">
+                    <div class="popup_form">
+                        <div class="popup_form_close">
+                            <img src="./img/cross.svg" alt="">
+                        </div>
+                        
+                        <div class="popup_form_content">
+                            <h2 class="popup_form_name">Adrienne Mason</h2>
+                            
+                            <div class="popup_form_fields popup_form_phone">
+                                <p class="popup_form_fields_left">Телефон:</p>
+                                <a class="popup_form_fields_right popup_field_phone">1-395-514-3388</a>
+                            </div>
+                            <div class="popup_form_fields">
+                                <p class="popup_form_fields_left">Почта:</p>
+                                <a class="popup_form_fields_right popup_field_mail">erat.eget.ipsum@icloud.ca</a>
+                            </div>
+                            <div class="popup_form_fields">
+                                <p class="popup_form_fields_left">Дата приема:</p>
+                                <p class="popup_form_fields_right popup_field_date">Nov 15, 2020</p>
+                            </div>
+                            <div class="popup_form_fields">
+                                <p class="popup_form_fields_left">Должность:</p>
+                                <p class="popup_form_fields_right 
+                                truncation_adding_ellipsis popup_field_position">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="popup_form_fields">
+                                <p class="popup_form_fields_left">Подразделение:</p>
+                                <p class="popup_form_fields_right 
+                                truncation_adding_ellipsis popup_field_department">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+    
+                            <div class="popup_additional_information">
+                                <h4 class="popup_additional_information_title">
+                                    Дополнительная информация
+                                </h4>
+    
+                                <p class="popup_additional_information_text">
+                                    Разработка использует текст Lorem ipsum в качестве заполнителя макета страницы.
+                                    Так как дополнительной информации в JSON нет, а адрес нигде не используется закинул
+                                    его сюда 963 Montes, Avenue
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+</html>
