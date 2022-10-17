@@ -1,6 +1,5 @@
 import adding_data_popup from './adding_data_popup.js'
-import adding_data_popup from './generation_dom.js'
-
+import generation_dom from './generation_dom.js'
 
 // Функция на прием всех записей в бд
 export async function request_all_users() {
@@ -14,9 +13,6 @@ export async function request_all_users() {
 
     adding_data_popup(data)
 }
-
-
-
 
 // Функция на прием записей, удовлетворяющих запрос
 export async function request_search(value) {
